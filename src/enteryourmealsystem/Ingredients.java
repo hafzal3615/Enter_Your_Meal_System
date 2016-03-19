@@ -12,7 +12,6 @@ public class Ingredients {
 	public static String fichier ="C:\\Users\\Pierre\\Documents\\GitHub\\Enter_Your_Meal_System\\ListOfIngredients.txt";
 	
 	public static void addIngredient(String name, Double quantity, Double priceForThisQuantity) throws IOException{
-		;
 		FileWriter fw = new FileWriter (fichier, true);
 		BufferedWriter bw = new BufferedWriter (fw);
 		PrintWriter fichierSortie = new PrintWriter (bw);
@@ -27,5 +26,6 @@ public class Ingredients {
 		}
 	}
 }
+
 
 

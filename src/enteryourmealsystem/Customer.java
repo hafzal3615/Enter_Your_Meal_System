@@ -1,5 +1,5 @@
 package enteryourmealsystem;
 
-public class Client {
+public class Customer {
 
 }
